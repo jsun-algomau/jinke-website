@@ -1,0 +1,132 @@
+:root {
+  --jk-blue: #0050b8;
+  --jk-blue-dark: #002b66;
+  --jk-accent: #00b8ff;
+  --jk-bg-dark: #101623;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+/* Top nav */
+.navbar {
+  background: linear-gradient(90deg, var(--jk-bg-dark), #000814);
+}
+
+/* Hero (index) */
+.hero-section {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  background: radial-gradient(circle at top left, #163a7a 0, #020817 55%, #000 100%);
+}
+
+.hero-card {
+  border-radius: 1rem;
+  background: rgba(6, 17, 40, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Common helpers */
+.text-accent { color: var(--jk-accent) !important; }
+.bg-accent-subtle { background-color: rgba(0, 184, 255, 0.12) !important; }
+
+.section-title { font-weight: 700; }
+
+.info-box {
+  border-radius: 0.9rem;
+  padding: 1rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e3e6f0;
+}
+
+.product-card {
+  border-radius: 0.9rem;
+  border: 1px solid #e1e5f2;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  background: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.22);
+  border-color: var(--jk-accent);
+}
+
+.advantage-box {
+  border-radius: 0.9rem;
+  padding: 1.5rem;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.advantage-box h5 { color: #e5e7eb; }
+
+.btn-accent {
+  background-color: var(--jk-blue);
+  border-color: var(--jk-blue);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background-color: var(--jk-blue-dark);
+  border-color: var(--jk-blue-dark);
+}
+
+/* Keep pages from feeling short */
+main { min-height: 60vh; }
+
+small { font-size: 0.85rem; }
+
+/* Logo on index/about */
+.about-logo {
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+/* ===== About logo card (centered) ===== */
+.logo-card{
+  background:#fff;
+  border:1px solid #e3e6f0;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 14px 30px rgba(15,23,42,.12);
+}
+
+/* 让 logo 看起来更“居中”和不撑爆 */
+.about-logo{
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ===== Scroll reveal animation ===== */
+.reveal{
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .6s ease, transform .6s ease;
+  will-change: opacity, transform;
+}
+.reveal.is-visible{
+  opacity: 1;
+  transform: none;
+}
+
+/* 尊重无动画用户偏好 */
+@media (prefers-reduced-motion: reduce){
+  .reveal{ opacity: 1; transform: none; transition: none; }
+}

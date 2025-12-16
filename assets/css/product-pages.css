@@ -1,0 +1,74 @@
+/* ===============================
+   Product pages ONLY
+   =============================== */
+
+.product-page main {
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+/* 主产品图（详情页） */
+.product-page .detail-img {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  border-radius: 0.9rem;
+  border: 1px solid #e1e5f2;
+  background: radial-gradient(
+    circle at top left,
+    rgba(22, 58, 122, 0.25),
+    rgba(2, 8, 23, 0.9)
+  );
+}
+
+/* 食品示例 / 备用占位图 */
+.product-page .ph {
+  width: 100%;
+  height: 260px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* 信息盒 */
+.product-page .info-box {
+  background: #ffffff;
+  border-radius: 0.9rem;
+  border: 1px solid #e3e6f0;
+  padding: 1.25rem;
+}
+
+/* 参数表 */
+.product-page .spec-table th {
+  width: 38%;
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+/* 产品列表页图片统一框（products.html 用） */
+.prod-img-wrap {
+  height: 240px;
+  background: #f5f7fb;
+  border-radius: 0.9rem 0 0 0.9rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-lg-row-reverse .prod-img-wrap {
+  border-radius: 0 0.9rem 0.9rem 0;
+}
+
+.prod-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
