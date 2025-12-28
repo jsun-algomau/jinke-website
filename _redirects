@@ -1,3 +1,5 @@
 http://jinkemachine.com/* https://jinkemachine.com/:splat 301!
 http://www.jinkemachine.com/* https://jinkemachine.com/:splat 301!
 https://www.jinkemachine.com/* https://jinkemachine.com/:splat 301!
+https://jinkemachine.org/* https://jinkemachine.com/:splat 301!
+https://jinkemachine.net/* https://jinkemachine.com/:splat 301!
