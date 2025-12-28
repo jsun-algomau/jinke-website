@@ -2,39 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.jinkemachine.com/</loc>
+    <loc>https://jinkemachine.com/</loc>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://www.jinkemachine.com/products.html</loc>
+    <loc>https://jinkemachine.com/products.html</loc>
     <priority>0.90</priority>
   </url>
 
   <!-- Product pages -->
   <url>
-    <loc>https://www.jinkemachine.com/products/jkgb-1200.html</loc>
+    <loc>https://jinkemachine.com/products/jkgb-1200.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/jkgb-820-930.html</loc>
+    <loc>https://jinkemachine.com/products/jkgb-820-930.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/jkxb-iii.html</loc>
+    <loc>https://jinkemachine.com/products/jkxb-iii.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/jk-szb-ii.html</loc>
+    <loc>https://jinkemachine.com/products/jk-szb-ii.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/jkbg.html</loc>
+    <loc>https://jinkemachine.com/products/jkbg.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/jkrjm-ii.html</loc>
+    <loc>https://jinkemachine.com/products/jkrjm-ii.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/multi-product-dough-line.html</loc>
+    <loc>https://jinkemachine.com/products/multi-product-dough-line.html</loc>
   </url>
+
   <url>
-    <loc>https://www.jinkemachine.com/products/flattening-laminating-machine.html</loc>
+    <loc>https://jinkemachine.com/products/flattening-laminating-machine.html</loc>
   </url>
 
 </urlset>
+
